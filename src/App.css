@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1.title{
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 17px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sub-title{
+    text-align: center;
+    padding: 10px 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav{
+    background-color: rgb(84, 92, 100);
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.nav a{
+    color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.theme-title{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+a {
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+a:hover{
+    opacity: .8;
+}
+
+
+.container{
+    display: flex;
+    padding: 20px 0;
+}
+
+.container .router-link{
+    width: 120px;
+    border-right: 1px solid #d9d9d9;
+}
+
+.container .link{
+    width: 120px;
+    padding: 15px 10px;
+}
+
+.container .router-wrapper{
+    padding: 10px 50px;
 }
